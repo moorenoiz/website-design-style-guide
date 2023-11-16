@@ -1,0 +1,269 @@
+/*1. Header */
+
+header {   
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+header nav ul {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+header li {
+    display: inline;
+}
+
+li a {
+    padding: 0 25px;
+    text-decoration: none;
+}
+
+li a:hover{
+    font-size: 22px;
+    color: #0528F2;
+    text-decoration: underline;
+}
+
+/* 2. Main */
+
+main {
+    margin: 0 50px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+th {
+    font-family: "Karla", sans-serif;
+    font-size: 14px;
+    font-weight: regular;
+    line-height: 1.5; 
+    text-align: left;
+}
+
+th {
+    text-align: center;
+    width: 100px;
+    height: 50px;
+}
+
+td {
+    text-align: center;
+    width: 150px;
+    height: 100px;
+}
+
+footer{
+    position: relative;
+    overflow: hidden;
+    width: 1920px;
+    height: 64px;
+}
+
+/* 3. General Section */
+
+.modules {
+    padding: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #010440;
+}
+
+/* Colour Section */
+
+.colors {
+    display: inline-block;
+    width: 200px;
+    margin-right: 15px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+.light {
+    background-color: #F6F6F6;
+    color: #1C1C1C;
+    border: 1px solid #010440;
+}
+
+.brand-colour-one {
+    background-color: #FDE4C3;
+    color: #1C1C1C;
+    border: 1px solid #010440;
+}
+
+.brand-colour-two {
+    background-color: #302A18;
+    color: #F6F6F6;
+    border: 1px solid #010440;
+}
+
+.brand-colour-three {
+    background-color: #1C1C1C;
+    color: #F6F6F6;
+    border: 1px solid #010440;
+}
+
+.color-box-text {
+    position: relative;
+    top: 73%;
+    left: 3%
+}
+
+.minititle {
+    font-weight: 700;
+}
+
+/* Typography Section */
+
+.two-columns {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.underline {
+    border-bottom: 2px solid #F21905;
+    padding: 1px;
+}
+
+.fonts {
+    display: inline-block;
+    width: auto;
+    margin: 0 5px;
+}
+
+.roboto-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.text-italic-bold {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cambo-text {
+    font-family: 'Cambo', serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Text Styles */ 
+
+.text-h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.text-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.text-h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.text-body {
+    font-family: 'Cambo', serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text-styles-space-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #010440;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+
+
+.button {
+    cursor: pointer;
+    padding: 8px 25px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #302A18;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #F6F6F6;
+    text-align: center;
+    text-decoration: none;
+}
+.button-primary-disabled {
+    background-color: #302a1821;
+}
+
+.button-primary-hovered {
+    background-color: #302a18a3;
+}
+
+.button-primary-pressed {
+    background-color: #302a1821;
+}
+
+.button-secondary {
+    background-color: #F6F6F6;
+    border: 2px solid #302A18;
+    color: #1C1C1C;
+}
+
+.button-secondary-disabled {
+    border: 2px solid #302a1821;
+    color: #302a1821;
+}
+
+.button-secondary-hovered {
+    border: 2px solid #302a18a3;
+    color: #302a18a3;
+}
+
+.button-secondary-pressed {
+    border: 2px solid #302a1821;
+    color: #302a1821;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
